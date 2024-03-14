@@ -8,7 +8,6 @@ namespace Calculadora
         private double _numero1 = 0;
         private double _numero2 = 0;
         private char _operador;
-        private Font? _originalFont; // Guardar la fuente original
 
         public FrmCalculadora()
         {
@@ -79,16 +78,7 @@ namespace Calculadora
                     }
                     else
                     {
-                        _originalFont = txtResultado.Font;
-                        // Crear una nueva fuente con un tamaño 8 más pequeño
-                        Font nuevaFuente = new Font(_originalFont.FontFamily, _originalFont.Size - 8, _originalFont.Style);
-
-                        // Asignar la nueva fuente al control
-                        txtResultado.Font = nuevaFuente;
-
-                        // Asignar el texto deseado
-                        txtResultado.Text = "No se puede dividir por 0";                    
-
+                        MessageBox.Show("No se puede dividir por 0");                                
                     }
                     break;                    
             }
@@ -115,7 +105,7 @@ namespace Calculadora
             _numero2 = 0;
             _operador = '\0'; // Carácter nulo
             txtResultado.Text = "0";
-            txtResultado.Font = _originalFont; //Restaurar la fuente original (La cambiamos para mostrr no se puede dividir por 0)
+            
         }
 
 
