@@ -8,7 +8,7 @@ namespace Calculadora
         private double _numero1 = 0;
         private double _numero2 = 0;
         private char _operador;
-        private Font _originalFont; // Guardar la fuente original
+        private Font? _originalFont; // Guardar la fuente original
 
         public FrmCalculadora()
         {
