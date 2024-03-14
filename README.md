@@ -9,6 +9,6 @@ Realice unas mejoras en el codigo, voy a ir agregando cambios para que quede muc
 Muchas Gracias
 
 Estilo Windows
-![Calculadora](calculadora%20Horacio.PN)
+![Calculadora](calculadora%20Horacio.PNG)
 
 
