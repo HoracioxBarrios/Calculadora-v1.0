@@ -9,4 +9,4 @@ Realice unas mejoras en el codigo, voy a ir agregando cambios para que quede muc
 Muchas Gracias
 
 Estilo Windows
-[Calculadora](calculadora%Horacio.PNG)
+![Calculadora](calculadora%Horacio.PNG)
